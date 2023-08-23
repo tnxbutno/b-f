@@ -22,7 +22,7 @@ pub fn lookup_values(c: &mut Criterion) {
                      |b|
                          b.iter(||
                              bf.lookup(
-                                 &rng.sample(&distribution).to_be_bytes()
+                                 &rng.sample(distribution).to_be_bytes()
                              )
                          ));
 
