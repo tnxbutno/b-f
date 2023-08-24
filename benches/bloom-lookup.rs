@@ -3,7 +3,7 @@ use criterion::{criterion_group, criterion_main, Criterion};
 use rand::distributions::Uniform;
 use rand::{Rng, thread_rng};
 use rand::prelude::IteratorRandom;
-use b_f::BloomFilter;
+use probable::bloom::BloomFilter;
 
 pub fn lookup_values(c: &mut Criterion) {
     let mut bf = BloomFilter::new(10u32.pow(7), 0.02);
