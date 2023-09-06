@@ -12,5 +12,5 @@ rand = "0.8"
 criterion = "0.5"
 
 [[bench]]
-name = "lookup"
+name = "classical_bloom_filter"
 harness = false

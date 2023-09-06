@@ -1,1 +1,1 @@
-pub mod bloom;
+pub mod bloom_filters;
